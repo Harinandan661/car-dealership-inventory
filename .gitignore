@@ -10,3 +10,4 @@ dist/
 .env
 *.log
 .DS_Store
+project_dump*.txt
