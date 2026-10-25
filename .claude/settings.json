@@ -1,0 +1,21 @@
+{
+  "model": "opusplan",
+  "permissions": {
+    "deny": [
+      "Read(./**/.venv/**)",
+      "Read(./**/venv/**)",
+      "Read(./**/__pycache__/**)",
+      "Read(./**/.pytest_cache/**)",
+      "Read(./**/htmlcov/**)",
+      "Read(./**/node_modules/**)",
+      "Read(./**/dist/**)",
+      "Read(./**/package-lock.json)",
+      "Read(./**/*.db)",
+      "Read(./.env)",
+      "Read(./**/.env)"
+    ]
+  },
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "haiku"
+  }
+}
